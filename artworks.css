@@ -1,0 +1,89 @@
+body {
+    background-color: #000000;
+    align-items: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.menu{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    gap: 70px;
+    padding: 0 50px; /* Add some space from edges */
+    color: white;
+    flex-wrap: wrap;
+  }
+
+
+.menu #btn:hover {
+  color: burlywood;
+  transition: 0.3s ease;
+}
+  
+  @media (max-width: 1024px) {
+    .menu {
+      gap: 40px;
+      font-size: 14px;
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }  
+
+  #btn{
+    background: #000000;
+    border: none;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+.bg{
+    scroll-behavior: none;
+    height: 100vh;
+    width: auto;
+    object-fit: contain;
+    background-image: url(IMG_5194.jpeg);
+}
+
+p {
+    color: white;
+    font-size: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/* Easy copyright footer */
+
+hr{
+  border: none;
+  border-top:1px solid white;
+  width: 95%;
+  margin: 20px auto;
+}
+
+footer{
+  margin: 100px;
+  text-align:center; 
+  padding:15px 0; 
+  font-size:14px; 
+  color:whitesmoke; 
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="styles4.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@300&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar Menu -->
+    <div class="menu">
+        <!-- Go to Home page through navbar -->
+        <div id="home">
+            <button id="btn">
+                <a href="index.html" id="btn">Home</a>
+            </button>
+        </div>
+
+        <!-- Go to Work section through navbar -->
+        <div id="work">
+            <button id="btn">
+              <a id="btn" href="index.html#projects-section" 
+              onclick="document.getElementById('projects-section').scrollIntoView({behavior: 'smooth'});">
+              Works</a>
+            </button>
+          </div>
+
+        <!-- Go to About us page through navbar -->
+        <div id="about">
+            <button id="btn">
+              <a href="about.html" id="btn">About</a>
+            </button>
+          </div>
+
+        <!-- Go to Contact us page through navbar -->
+        <div id="contact">
+          <button id="btn">
+            <a id="btn" rel="stylesheet" href="contact.html">Contact Us</a>
+          </button>
+        </div>
+    </div>
+
+<div class="flex-container">
+    <div class="img">
+        <img src="IMG_8656 copy.jpeg" alt="img">
+    </div>
+
+    <div class="container">
+    <form action="">
+        <h1>Connect with us!</h1>
+        <p class="email">Email: ayeshaaartist@gmail.com</p>
+
+        <h2>Join our Newsletters!</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <br><br>
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" required>
+        <br><br>
+        <input type="checkbox" id="agree">
+        <label for="tick">Yes, I am ready to accept the Newsletters!</label>
+    </form>
+    </div>
+</div>
+
+<hr>
+    
+    <footer >
+      © 2025 MyVintageDreams. All rights reserved.
+   </footer>
+   
+</body>
+</html>

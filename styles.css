@@ -1,0 +1,668 @@
+body {
+  background-color: #000000;
+  color: white;
+  align-items: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h4{
+  color: white;
+}
+
+.menu{
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  gap: 70px;
+  padding: 0 50px; /* Add some space from edges */
+  color: white;
+  flex-wrap: wrap;
+}
+
+.menu #btn:hover {
+  color: burlywood;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    gap: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+}
+
+#btn{
+  background: #000000;
+  border: none;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: white;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-style: normal;
+  border: none;
+}
+
+/* Landing page */
+.x{
+  height: 47vh;
+}
+
+.name{
+  color: white;
+  margin-top: 35px;
+  margin-left: 70px;
+}
+
+#name {
+  font-family: 'Stardom', sans-serif;
+  font-size: 60px;
+}
+
+/* hero section except title/name */
+
+.hero-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 60px;
+}
+
+.para{
+  color: white;
+  width: 400px;
+}
+
+#para1{
+  margin-top: -5px;
+  font-family: 'Gambarino', serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+#para2{
+  margin-top: 20px;
+  font-family: 'General Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+#vid{
+  margin-top: 30px;
+  height: 200px;
+  width: 450px;
+  object-fit: cover;
+  filter: sepia(30%);
+  border-radius: 8px;
+}
+
+
+
+/* Arrow */
+
+.down {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+  top: 60%;
+  right: 27%;
+}
+
+/* Revive The Vintage Vibes */
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  padding: 20px -20px 20px 0;
+  text-align: center;
+}
+
+.hero-h1{
+  font-family: 'Melodrama', serif;
+  color: black;
+  /* font-size: clamp(2rem, 8vw, 6rem); */
+  font-size: 8em;
+  line-height: 1.2;
+  font-weight: 600;
+  background: url(IMG_8656\ copy.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.3px white;
+  filter: sepia(50%);
+}
+
+/* About button */
+
+
+a {
+  color: white;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: lighter;
+  text-decoration: none;
+  outline-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.abt-btn {
+  margin-top: -70px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+#abt-btn {
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: lighter;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  color: black;
+  background-color: #b99470;
+  border: none;
+}
+
+/* About button */
+.About-us{
+  margin-top: 200px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.div-hr{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8em;
+}
+
+.top-txt{
+  margin-top: -70px;
+  margin-left: -200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.abt-us-txt{
+  font-family: 'General Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.left-arrow{
+  margin-left: -40px;
+  width: 30%;
+  height: 10%;
+}
+
+.about-btn{
+  background-color: burlywood;
+  margin-left: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: none;
+}
+
+.about-btn:hover{
+  background-color: #826c52; 
+}
+
+#abt-us{
+  font-family: 'Gambarino', serif;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+
+}
+
+#abt-us:hover {
+  color: white;
+}
+
+.bottom-txt{
+  margin-top: -125px;
+  margin-right: -200px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.right-arrow {
+  margin-left: 300px;
+  width: 20%;
+  height: 10%;
+}
+
+.prod-txt{
+  font-family: 'General Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.prod-btn{
+  background-color: burlywood;
+  margin-right: 100px;
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: none;
+}
+
+#prod{
+  font-family: 'Gambarino', serif;
+  font-style: normal;
+  color: black;
+}
+
+.prod-btn:hover{
+  background-color: #826c52; 
+}
+
+#prod:hover {
+  color: white;
+}
+
+
+
+
+
+/* Bento grid */
+.bento-grid {
+  margin-top: 45px;
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: minmax(100px, 230px);
+  grid-gap: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.bento-grid a {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: filter 0.5s ease;
+}
+
+.bento-grid a:hover {
+  filter: brightness(100%);
+}
+
+.bento-grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bento-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(200%);
+  transition: filter 0.3s ease;
+}
+
+.bento-grid a:hover img {
+  filter: sepia(50%);
+}
+
+.bento-grid .content {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  /* display: flex; */
+  gap: 60px;
+  position: absolute;
+  top: 50%;
+  left: 23.75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.bento-grid .content .sno {
+  font-size: 200px;
+  color: black;
+}
+
+.bento-grid .content2 {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content2 p {
+  margin: 0;
+  font-size: 0px;
+  color: white;
+}
+
+.bento-grid .content2 .sno {
+  font-size: 200px;
+  color: white;
+}
+
+.bento-grid .content4 {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content4 p {
+  margin: 0;
+  font-size: 0px;
+  color: white;
+}
+
+.bento-grid .content4 .sno {
+  font-size: 200px;
+  color: white;
+}
+
+.bento-grid .content5 {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content5 p {
+  margin: 0;
+  font-size: 0px;
+  color: white;
+}
+
+.bento-grid .content5 .sno {
+  font-size: 200px;
+  color: black;
+}
+
+.bento-grid .content6 {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content6 p {
+  margin: 0;
+  font-size: 0px;
+  color: white;
+}
+
+.bento-grid .content6 .sno {
+  font-size: 200px;
+  color: black;
+}
+
+.bento-grid .content7 {
+  font-family: "Instrument Serif", serif;
+  font-style: normal;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.bento-grid .content7 p {
+  margin: 0;
+  font-size: 0px;
+  color: white;
+}
+
+.bento-grid .content7 .sno {
+  font-size: 200px;
+  color: white;
+}
+
+.bento-grid a:nth-child(1) {
+  grid-column: 1/5;
+  grid-row: 1/1;
+}
+
+.bento-grid a:nth-child(2) {
+  grid-column: 5/8;
+  grid-row: 1;
+}
+
+.bento-grid div:nth-child(3) {
+  grid-column: 8/10;
+  grid-row: 1/4;
+}
+
+.bento-grid div:hover img {
+  filter: sepia(40%);
+  border-radius: 10px;
+}
+
+.bento-grid div {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: filter 0.5s ease;
+}
+
+.bento-grid div:nth-child(4) {
+  grid-column: 1/6;
+  grid-row: 2/2;
+}
+
+.bento-grid div:nth-child(4) {
+  filter: sepia(40%);
+}
+
+.bento-grid .display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #826c52; /* Set your desired background color */
+}
+
+.bento-grid .display h2 {
+  font-family: "overpass-mono-variable", sans-serif;
+  font-variation-settings: "wght" 50;
+  font-weight: 400;
+  font-size: 60px;
+  color: white;
+}
+
+.bento-grid a:nth-child(5) {
+  grid-column: 6/8;
+  grid-row: 2;
+}
+
+.bento-grid a:nth-child(6) {
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+.bento-grid a:nth-child(7) {
+  grid-column: 3/5;
+  grid-row: 3;
+}
+
+.bento-grid a:nth-child(8) {
+  grid-column: 5/8;
+  grid-row: 3;
+}
+
+
+
+/* .tagline{
+  margin-top: 200px;
+  margin-left: 60px;
+} */
+
+.tagline {
+  margin-top: 100px;
+  margin-left: 0; 
+  display: grid;
+  place-items: center;
+  padding: 0 20px; 
+}
+
+.h4{
+  color: burlywood;
+  font-size: 200px;
+  font-family: 'Boska', serif;
+  font-weight: 100;
+  font-style: none;
+  text-align: justify;
+  line-height: 1;
+}
+
+/* Easy copyright footer */
+
+hr{
+  border: none;
+  border-top:1px solid white;
+  width: 95%;
+  margin: 20px auto;
+}
+
+footer{
+  box-sizing: border-box;
+  height: 100px;
+  margin-top: 100px;
+  text-align: center; 
+  font-size:14px; 
+  color:whitesmoke; 
+}
+
+/* Footer well built */
+
+/* footer{
+  margin-top: 100px;
+  margin-left: -90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10em;
+}
+
+.content-list{
+  margin-left: 80px;
+}
+
+.products-list{
+  margin-left: 80px;
+}
+
+.blogs-list{
+  margin-left: 80px;
+}
+
+.socials-list{
+  margin-left: 80px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

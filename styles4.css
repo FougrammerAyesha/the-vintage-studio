@@ -1,0 +1,140 @@
+body{
+    background-color: #000000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.menu{
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+    gap: 70px;
+    padding: 0 50px; /* Add some space from edges */
+    color: white;
+    flex-wrap: wrap;
+  }
+
+
+.menu #btn:hover {
+  color: burlywood;
+  transition: 0.3s ease;
+}
+  
+  @media (max-width: 1024px) {
+    .menu {
+      gap: 40px;
+      font-size: 14px;
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }  
+
+  #btn{
+    background: #000000;
+    border: none;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+.flex-container {
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.img{
+  margin: 60px;
+}
+
+img{
+  height: 400px;
+  width: 500px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container{
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  justify-content:left;
+}
+
+h1{
+  font-family: 'Stardom', sans-serif;
+  font-size: 60px;
+}
+
+p{
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 40px;
+}
+
+label{
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
+input[type=text], [type=email]{
+  margin-left: 35px;
+  background-color: burlywood;
+  width: 70%;
+  height: 30%;
+  border: 2px solid;
+  border-radius: 50px;
+  box-shadow: none;
+  padding: 10px;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 15px;
+}
+
+input[type=text]{
+  margin-left: 45px;
+}
+
+#agree{
+  margin-top: 20px;
+}
+
+/* Easy copyright footer */
+
+hr{
+  border: none;
+  border-top:1px solid white;
+  width: 95%;
+  margin: 20px auto;
+}
+
+footer{
+  margin: 100px;
+  text-align:center; 
+  padding:15px 0; 
+  font-size:14px; 
+  color:whitesmoke; 
+}
+
